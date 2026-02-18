@@ -39,3 +39,27 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# OpenClaw & Agent Context
+.claude/
+.specify/
+.agent/
+.shared/
+.clawhub/
+.openclaw/
+AGENTS.md
+BOOTSTRAP.md
+HEARTBEAT.md
+IDENTITY.md
+SOUL.md
+TOOLS.md
+USER.md
+project.md
+fetch_nse.py
+memory/
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!next.config.ts
+!.markdownlint-cli2.jsonc
